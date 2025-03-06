@@ -1,0 +1,66 @@
+body {
+    font-family: "Fira Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    color: #72767c;
+}
+ 
+h1 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 40px;
+    border: solid 1px #41d1c4;
+    background-color: #ebfffc;
+}
+
+.area-input {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 120px;
+    height: 30px;
+    padding-left: 10px;
+    border: solid 1px;
+    border-color: #b6e1db;
+}
+
+#btn-enviar{
+    width: 270px;
+    height: 30px;
+    background-color: #41d1c4;
+    border: none;
+    color: #ebfffc;
+    font-weight: 700;
+}
+
+.error-message {
+    background-color: #fb9a9a;
+    color: #72767c;
+    padding: 10px 10px;
+    display: none; 
+}
+
+.success-message {
+    background-color: #b9fb9a;
+    color: #72767c;
+    padding: 10px 10px;
+    display: none;
+}
